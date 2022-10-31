@@ -28,7 +28,6 @@ module.exports = {
     "eslint-plugin-unused-imports",
   ],
   rules: {
-    "import/no-unresolved": "error",
     "@typescript-eslint/naming-convention": [
       "error",
       {

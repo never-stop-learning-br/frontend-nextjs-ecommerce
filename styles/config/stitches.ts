@@ -97,7 +97,7 @@ const {
   utils,
 });
 
-const globalCSS = globalCss({
+const globalStyles = globalCss({
   "@import": [
     "https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap",
     "https://fonts.googleapis.com/css2?family=Comfortaa&display=swap",
@@ -131,7 +131,7 @@ export {
   createTheme,
   css,
   getCssText,
-  globalCSS,
+  globalStyles,
   keyframes,
   styled,
   theme,
