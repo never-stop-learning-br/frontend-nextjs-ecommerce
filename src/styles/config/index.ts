@@ -101,6 +101,7 @@ const globalStyles = globalCss({
   "@import": [
     "https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap",
     "https://fonts.googleapis.com/css2?family=Comfortaa&display=swap",
+    "https://fonts.googleapis.com/css2?family=Share+Tech&display=swap",
   ],
   "*": {
     margin: "$none",
