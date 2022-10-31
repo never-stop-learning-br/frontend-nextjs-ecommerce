@@ -60,7 +60,7 @@ module.exports = {
         newlinesBetween: "always",
         groups: [
           "module",
-          ["/^@(components)/"], // add here the order imports
+          ["/^@(components)/", "/^@(pages)/", "/^@(styles)/"], // add here the order imports
           ["parent", "sibling", "index"],
         ],
         alphabetize: { order: "asc", ignoreCase: true },
